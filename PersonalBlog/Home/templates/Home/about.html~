@@ -1,0 +1,18 @@
+{% extends "Home/base.html" %}
+
+
+{% block css_content %}
+
+{% load static %}
+<link rel="stylesheet" href={% static "Home/css/title_red.css" %}>
+
+{% endblock %}
+
+
+{% block body_content %}
+
+<h1>About me</h1>
+
+<img src="{% static "Home/images/yo.jpg" %}" alt="Mi imagen">
+
+{% endblock %}
